@@ -3,6 +3,20 @@ entries:
   growthbook-proxy:
   - apiVersion: v2
     appVersion: git-9aacd45
+    created: "2023-10-27T11:45:57.985440553Z"
+    description: A Helm chart for deploying growthbook-proxy
+    digest: e6c642172637e988ae1313e50feb6bc40307e9e336a8ca2ca0a796a8f8e29e72
+    home: https://chrismckee.co.uk/growthbook-proxy/
+    icon: https://chrismckee.co.uk/growthbook-proxy/growthbook.ico
+    name: growthbook-proxy
+    sources:
+    - https://github.com/chrismckee/growthbook-proxy
+    type: application
+    urls:
+    - https://github.com/ChrisMcKee/growthbook-proxy/releases/download/growthbook-proxy-v0.0.2-helm/growthbook-proxy-v0.0.2.tgz
+    version: v0.0.2
+  - apiVersion: v2
+    appVersion: git-9aacd45
     created: "2023-10-27T11:29:35.386251453Z"
     description: A Helm chart for deploying growthbook-proxy
     digest: f09df3236071a10dad8e7d3bc9292454f1ca0eb68bb9bb75ddc6a15991114234
@@ -15,4 +29,4 @@ entries:
     urls:
     - https://github.com/ChrisMcKee/growthbook-proxy/releases/download/growthbook-proxy-v0.0.1-helm/growthbook-proxy-v0.0.1.tgz
     version: v0.0.1
-generated: "2023-10-27T11:29:35.386259053Z"
+generated: "2023-10-27T11:45:57.985808754Z"
