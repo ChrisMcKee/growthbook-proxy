@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: growthbook/proxy:latest
+  repository: growthbook/proxy:git-9aacd45
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
