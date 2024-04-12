@@ -35,7 +35,7 @@ jobs:
           sed -i 's/latest/${{ github.ref_name }}/g' charts/growthbook-proxy/values.yaml
 
       - name: Set up Helm
-        uses: azure/setup-helm@v3.5
+        uses: azure/setup-helm@v4
         with:
           version: v3.8.1
 
