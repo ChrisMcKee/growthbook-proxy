@@ -33,7 +33,7 @@ cacheExpiresTtl: '600'
 enableRemoteEval: 'true'
 
 # Although we recommend terminating SSL using your load balancer, you can also configure the GrowthBook Proxy to handle SSL termination directly. It supports HTTP/2 by default, which is required for high performance streaming.
-useHttp2: true
+useHttp2: false
 # The SSL certificate
 httpsCert: ''
 # The SSL key
